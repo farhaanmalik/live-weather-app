@@ -1,5 +1,5 @@
 # Live Weather Web App
-A simple live weather web app. Just Enter the city or location and get the live weather update of the given locations
+A simple live weather web app. Just Enter the city or location and get the live weather update of the given location.
 
 ## Built with:
 - React.js
