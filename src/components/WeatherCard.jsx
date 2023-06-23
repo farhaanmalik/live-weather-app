@@ -37,7 +37,7 @@ const WeatherCard = ({ tempInfo }) => {
                     setWeatherState("rainy");
                     break;
                 case "Thunderstorm":
-                    setWeatherState("lightning");
+                    setWeatherState("lightening");
                     break;
                 default:
                     setWeatherState("foggy")
