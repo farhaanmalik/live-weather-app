@@ -31,7 +31,10 @@ const WeatherCard = ({ tempInfo }) => {
                     setWeatherState("cloud");
                     break;
                 case "Smoke":
-                    setWeatherState("cloud");
+                    setWeatherState("foggy");
+                    break;
+                case "Dust":
+                    setWeatherState("foggy");
                     break;
                 case "Rain":
                     setWeatherState("rainy");
