@@ -58,13 +58,11 @@ const Weather = () => {
             </div>
             <div className="main-container">
                 <div className="main">
-                    <div>
-                        <form action="" className="search-bar">
+                    <div className="search-bar">
                             <input type="text" className='searchInp' placeholder='Enter location.'
                                 value={cityValue}
                                 onChange={handleOnChange} />
                             <button className='searchBtn' onClick={getWeatherByCity}>Search</button>
-                        </form>
                     </div>
                     <WeatherCard tempInfo={tempInfo} />
                 </div>
